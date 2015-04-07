@@ -1,0 +1,114 @@
+body {
+    background-color:#fff;
+
+}
+
+.container {
+    width:265px; /*not sure if you want a percentage here*/
+    border:solid 1px gray;
+    min-height:1000px;
+    height:100%;
+    background-color:#eee;
+
+}   
+.nav {
+    height:40px;
+    margin-top:10px;
+    text-align:center;
+    font-size: 16pt;
+    width:100%;
+}
+
+.lapclock {
+    height:32px;
+    width:100%;
+    color:gray;
+    background-color:#fff;
+    font-size:12pt;
+    text-align:right;
+    padding-top:10px;
+
+    
+}
+.lapclockText {
+    padding:10px;
+}
+
+.clock {
+    height:85px;
+    background-color:white;
+    color:#000;
+    text-align:center;
+    font-size:32pt;
+    width:100%;
+}
+
+.controls {
+    height:85px;
+    margin:0,auto;
+    width:100%;
+    padding-top:30px;
+}
+
+.circle {
+   
+   display:block;
+   border-radius: 50%;
+   height:25px;
+   width:25px;
+   background-color:#fff;
+   font-size:12pt;
+   vertical-align:middle;
+   text-align:center;
+   padding:25px;
+   
+   
+}
+
+.start.circle {
+    color:green;
+    float:left;
+    margin-left:30px;
+    cursor: pointer;
+}
+
+.stop.circle {
+    color:red;
+    float:left;
+    margin-left:30px;
+    display:none;
+    cursor: pointer;
+}
+
+.lap.circle {
+    color:#000;
+    float:right;
+    margin-right:30px;
+    cursor: default;
+}
+
+.laps {
+    height:100%;
+    
+}
+li {
+    border-bottom:solid 1px lightgray;
+    height:25px;
+    list-style-type:none;
+    width:200px;
+    
+}
+li > span.title {
+    color: #c2c2c2;
+    font-size:12pt;
+    float:left;
+    
+}
+
+li > span.time {
+    color:#000;
+    font-size:14pt;
+    float:right;
+    margin-right:30px;
+}
+

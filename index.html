@@ -1,0 +1,52 @@
+<html>
+<head>
+	<script src="stopwatch.js" ></script>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+
+    <section class="container">
+        <div class="nav">
+              Stopwatch  
+        </div>
+        <div class="lapclock">
+            <div class="lapclockText"></div>
+        </div>
+        <div class="clock">
+
+        </div>
+        <div class="controls">
+            <div class="circle start">
+                Start
+            </div>
+            <div class="circle stop">
+                Stop
+            </div>
+            <div class="circle lap">
+                Lap
+            </div>
+        </div>
+        <div id="lapDiv" class="laps">
+            <ul id="lapList">
+                
+            </ul>
+        </div>
+    
+
+    </section>
+
+
+    
+<script>
+    //Global Error Handler
+    //Log to file or server (if real)
+    window.onerror = function (msg, url, line) {
+        console.log(msg + ': ' + url + ', ' + line);
+        return true;
+    }
+    stopwatch.initialize();
+
+</script>
+</body>
+
+</html>
