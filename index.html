@@ -1,5 +1,6 @@
 <html>
 <head>
+
 	<script src="stopwatch.js" ></script>
     <link href="styles.css" rel="stylesheet" />
 </head>
@@ -25,6 +26,9 @@
             <div class="circle lap">
                 Lap
             </div>
+            <div class="circle reset">
+                Reset
+            </div>
         </div>
         <div id="lapDiv" class="laps">
             <ul id="lapList">
@@ -44,6 +48,8 @@
         console.log(msg + ': ' + url + ', ' + line);
         return true;
     }
+
+    
     stopwatch.initialize();
 
 </script>
